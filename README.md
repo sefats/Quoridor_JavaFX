@@ -1,6 +1,6 @@
 SAE 1-2-6
 
-Groupe numéro : 4 
+Groupe numéro : 14 
 
 Sujet : Quoridor
 
