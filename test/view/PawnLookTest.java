@@ -30,6 +30,5 @@ class PawnLookTest {
     void testPawnLook() {
         pawnLook.onLookChange();
         verify(pawn, times(1)).getPlayerID();
-        // Add additional verification as necessary
     }
 }

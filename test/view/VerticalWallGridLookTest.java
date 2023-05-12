@@ -35,7 +35,5 @@ public class VerticalWallGridLookTest {
 
         // When
         gridLook.createShape();
-
-        // Then
     }
 }

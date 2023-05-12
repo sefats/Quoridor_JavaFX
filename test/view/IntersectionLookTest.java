@@ -27,7 +27,5 @@ public class IntersectionLookTest {
         // When
         intersectionLook.onLookChange();
 
-        // Then
-        // Verify that the shape of the intersection look was updated correctly
     }
 }

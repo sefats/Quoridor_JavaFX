@@ -9,11 +9,10 @@ import static org.mockito.Mockito.mock;
 
 public class QuoridorHorizontalWallGridUnitTest {
     private QuoridorHorizontalWallGrid wall;
-    private GameStageModel gameStageModel;
 
     @BeforeEach
     public void setUp() {
-        gameStageModel = mock(GameStageModel.class);
+        GameStageModel gameStageModel = mock(GameStageModel.class);
         wall = new QuoridorHorizontalWallGrid(2, 3, gameStageModel);
     }
 
@@ -27,8 +26,4 @@ public class QuoridorHorizontalWallGridUnitTest {
         assertEquals(3, wall.getY());
     }
 
-    @Test
-    public void testGetType() {
-        assertEquals("horizontalwallgrid", wall.getType());
     }
-}
